@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regitration</title>
+</head>
+<body style="text-align: center;">
+    <form action="Request/Regitration.php" method="POST" enctype="multipart/form-data">
+        <div class=”form-group”>  
+            <div>Họ và tên:</div>  
+            <input type="text" name="fullname" class="form-control"> 
+        </div> 
+        <div class=”form-group”>  
+            <label > giới tính: </label> 
+            <input type="checkbox" id="nam" name="nam">
+            <label > Nam </label> 
+            <input type="checkbox" id="nu" name="nu">
+            <label> Nữ </label> 
+        </div> 
+        
+        <div class=”form-group”>  
+            <div>Hình ảnh:</div>  
+            <input type="file" id="myfile" name="myfile">
+        </div> 
+        <div class=”form-group”>  
+            <div>Quốc tịch:</div>  
+            <select name="quoctich" id="quoctich">
+                <option value="Norwegian">Norwegian</option>
+                <option value="Austrian">Austrian</option>
+                <option value="Croatian">Croatian</option>
+                <option value="Spanish">Spanish</option>
+              </select>
+        </div> 
+        <div class=”form-group”> 
+            <div>Sở thích:</div>  
+            <input type="checkbox" id="thethao" name="thethao">
+            <label > Thể thao </label> 
+            <input type="checkbox" id="dulich" name="dulich">
+            <label> du lịch </label> 
+            <input type="checkbox" id="amnhac" name="amnhac">
+            <label > Âm nhạc </label> 
+            <input type="checkbox" id="amthuc" name="amthuc">
+            <label> Ẩm thực</label> 
+        </div> 
+        <div class=”form-group”>
+            <div>Ghi chú:</div>  
+            <textarea name="note" id="note" cols="40" rows="5"></textarea>
+        </div>
+        <hr>
+        <div class=”form-group”>  
+            <input type="submit" id="submit" name="submit" value="Đăng ký">
+            <input type="button" id="reset" name="reset" value="Nhập lại">
+        </div> 
+        
+    </form>
+</body>
+</html>

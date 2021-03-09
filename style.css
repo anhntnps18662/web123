@@ -1,0 +1,492 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	list-style: none;
+}
+.doc {
+	margin-top: 500px;
+	width: 100px;
+	height: 2000px;
+	position: absolute;
+}
+.icon-mess {
+	margin-left: 10px;
+	position: sticky;
+	top: 500px;
+}
+.continer header {
+	text-align: center;
+	width: 100%;
+}
+.continer header .header-top {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background-color: #dfdfdf;
+}
+.continer header .header-top .hotline {
+	float: left;
+	line-height: 40px;
+	width: 20%;
+}
+.continer header .header-top .support {
+	float: left;
+	line-height: 40px;
+	width: 60%;
+}
+.continer header .header-top .customer {
+	float: right;
+	line-height: 40px;
+	width: 20%;
+}
+.continer header .header-top .customer .cart {
+	width: 25%;
+	float: left;
+}
+.continer header .header-top .customer .cart a {
+	text-decoration: none;
+	color: black;
+}
+.continer header .header-top .customer .login {
+	float: left;
+	width: 20%;
+}
+.continer header .header-top .customer .login a {
+	text-decoration: none;
+	color: black;
+}
+.continer header .header-top .customer .vertical-line {
+	margin: 5px 10px;
+	float: left;
+	width: 1px;
+	background-color: gray;
+	height: 30px;
+}
+.continer header .header-center {
+	height: 100px;
+}
+.continer header .header-center .logo {
+	margin-left: 40%;
+	float: left;
+	width: 20%;
+	line-height: 100px;
+}
+.continer header .header-center .search-sp {
+	float: left;
+	width: 40%;
+}
+.continer header .header-center .search-sp .searchbox {
+	background: #f0efef;
+	margin: 40px auto;
+	width: 300px;
+	height: 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	outline: none;
+}
+.continer header .header-center .search-sp .searchbox input:focus, .continer header .header-center .search-sp .searchbox textarea:focus, .continer header .header-center .search-sp .searchbox select:focus {
+	outline: none;
+}
+.continer header .header-center .search-sp .searchbox .search {
+	background: none;
+	border: none;
+	width: 250px;
+	height: 30px;
+}
+.continer nav {
+	margin: auto;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+}
+.continer nav li {
+	display: inline;
+	margin-right: 50px;
+	line-height: 50px;
+}
+.continer nav li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #252525;
+}
+.continer .img-left {
+	float: left;
+	margin-right: 20px;
+}
+.continer .Main3 {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+.continer .Main3 table thead td {
+	font-weight: 600;
+	font-size: 18px;
+}
+.continer .Main3 table tbody tr td {
+	font-size: 15px;
+	padding: 10px;
+}
+.continer .Main3 table tbody tr td button {
+	font-size: 15px;
+	color: white;
+	border: none;
+	background-color: #e60f1e;
+	width: 80px;
+	height: 30px;
+}
+.continer .Main4 {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+.continer .Main4 .item {
+	width: 200px;
+	height: 250px;
+	border-radius: 8px;
+}
+.continer .Main2 {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+.continer .Main2 table {
+	table-layout: fixed;
+}
+.continer .Main2 table thead td {
+	font-weight: 600;
+	font-size: 18px;
+}
+.continer .Main2 table td {
+	word-wrap: break-word;
+}
+.continer .Main2 table tbody tr td h5 {
+	margin-top: 30px;
+}
+.continer .Main2 img {
+	width: 100px;
+	height: 90px;
+}
+.continer .Main2 button {
+	font-size: 15px;
+	color: white;
+	border: none;
+	background-color: #e60f1e;
+	width: 150px;
+	float: right;
+	height: 40px;
+	margin-right: 100px;
+}
+.continer .Main {
+	margin: auto;
+	width: 80%;
+}
+.continer .Main .surrownd {
+	padding-top: 100px;
+	float: left;
+	width: 100%;
+	height: 800px;
+}
+.continer .Main .surrownd .showimg {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.continer .Main .surrownd .title-select {
+	float: left;
+	width: 100%;
+	height: 30px;
+	color: #666666;
+}
+.continer .Main .surrownd .select {
+	float: right;
+	width: 45%;
+	height: 100%;
+}
+.continer .Main .surrownd .select h1 {
+	color: #1b1b1b;
+	font-weight: 500;
+}
+.continer .Main .surrownd .select .price {
+	color: #1b1b1b;
+	font-weight: 600;
+	font-size: 30px;
+}
+.continer .Main .surrownd .select .loaisp {
+	height: 100px;
+	width: 100%;
+	line-height: 50px;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul {
+	color: gray;
+	display: block;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul li {
+	float: left;
+	margin-right: 3px;
+	list-style: none;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul li label {
+	cursor: pointer;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul li label input {
+	display: none;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul li label input:checked + span {
+	border: 1px solid #e60f1e;
+	background: url("https://theme.hstatic.net/1000025647/1000483372/14/checkbox-product.png?v=91") no-repeat right bottom #fff;
+}
+.continer .Main .surrownd .select .loaisp .listlelect ul li label span {
+	padding: 6px 8px;
+	border: 1px solid gray;
+}
+.continer .Main .surrownd .sl .input-group {
+	clear: both;
+	margin: 15px 0;
+	position: relative;
+}
+.continer .Main .surrownd .sl .input-group .button-minus, .continer .Main .surrownd .sl .input-group .button-plus {
+	font-weight: bold;
+	height: 38px;
+	padding: 0;
+	width: 38px;
+	position: relative;
+}
+.continer .Main .surrownd .sl .input-group .quantity-field {
+	position: relative;
+	height: 38px;
+	left: -6px;
+	text-align: center;
+	width: 62px;
+	display: inline-block;
+	font-size: 13px;
+	margin: 0 0 5px;
+	resize: vertical;
+}
+.continer .Main .surrownd .sl .input-group .button-plus {
+	left: -13px;
+}
+.continer .Main .surrownd .sl .input-group input, .continer .Main .surrownd .sl .input-group textarea {
+	border: 1px solid #eeeeee;
+	box-sizing: border-box;
+	margin: 0;
+	outline: none;
+	padding: 10px;
+}
+.continer .Main .surrownd .sl .input-group input[type="button"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	background-color: #eeeeee;
+	min-width: 38px;
+	width: auto;
+	transition: all 300ms ease;
+}
+.continer .Main .surrownd .sl .input-group input::-webkit-outer-spin-button, .continer .Main .surrownd .sl .input-group input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+.continer .Main .surrownd .sl .input-group input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: none;
+}
+.continer .Main .surrownd .button-select {
+	height: 48px;
+	width: 100%;
+}
+.continer .Main .surrownd .button-select .btn-add {
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #F44F00;
+	border-radius: 3px;
+	height: 48px;
+	width: 200px;
+	background: url(//theme.hstatic.net/1000025647/1000483372/14/icon_addtocart.png?v=91) no-repeat 15px center transparent;
+	color: #F44F00;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.continer .Main .surrownd .button-select .btn-buy-now {
+	cursor: pointer;
+	background: #F44F00;
+	border-radius: 3px;
+	color: #FFF;
+	display: inline-block;
+	height: 48px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 200px;
+	margin-bottom: 10px;
+	border: 1px solid #F44F00;
+}
+.continer .Main .surrownd .information-more {
+	margin-top: 20px;
+}
+.continer .Main .surrownd .information-more strong {
+	color: #363636;
+	font-weight: 700;
+}
+.continer .Main .surrownd .information-more ul {
+	line-height: 30px;
+}
+.continer .Main .surrownd .information-more ul li {
+	list-style: none;
+	font-size: 12px;
+	color: #ABABAB;
+}
+.continer .Main .presentation {
+	width: 100%;
+}
+.continer .Main .presentation #accordion .panel .panel-heading {
+	padding: 0;
+	margin: 0;
+}
+.continer .Main .presentation #accordion .panel .panel-heading a {
+	color: #000;
+	font-size: 25px;
+}
+.continer .Main .presentation #accordion .panel .panel-collapse {
+	font-size: 15px;
+}
+.continer .Main .presentation #accordion .panel .panel-collapse p {
+	text-align: center;
+}
+.continer .Main img {
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+.continer .Main .listnew {
+	text-align: center;
+	width: 30%;
+	height: 405px;
+	float: right;
+}
+.continer .Main .listnew .itemlistnew {
+	width: 100%;
+	float: left;
+	height: 80px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.continer .Main .listnew .itemlistnew .imgnew {
+	float: left;
+	width: 40%;
+}
+.continer .Main .listnew .itemlistnew .titlenew {
+	float: right;
+	width: 60%;
+	height: 80px;
+	margin: 20px auto;
+}
+.continer .Main .listnew .itemlistnew .titlenew a {
+	color: #4d4b4b;
+}
+.continer .Main .slide {
+	width: 720;
+	height: 405px;
+	float: left;
+}
+.continer .Main article {
+	float: left;
+	width: 100%;
+}
+.continer .Main article .list-item {
+	text-align: center;
+}
+.continer a {
+	text-decoration: none;
+}
+.continer footer {
+	float: left;
+	background-color: #dfdfdf;
+	width: 100%;
+	height: 400px;
+}
+.continer footer .top-about {
+	margin: auto;
+	width: 80%;
+	height: 350px;
+	padding-top: 80px;
+	background-color: #dfdfdf;
+}
+.continer footer .top-about .support-information {
+	width: 40%;
+	float: left;
+	line-height: 40px;
+}
+.continer footer .top-about .support-information li {
+	list-style: none;
+}
+.continer footer .top-about .support-information li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+}
+.continer footer .top-about .service {
+	float: left;
+	width: 40%;
+	line-height: 40px;
+}
+.continer footer .top-about .service li {
+	list-style: none;
+}
+.continer footer .top-about .service li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+}
+.continer footer .top-about .new-sp {
+	float: left;
+}
+.continer footer .bottom-about {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	line-height: 50px;
+	color: white;
+}
+.continer footer .bottom-about a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #ff4141;
+}
+.continer .item {
+	float: left;
+	width: 23%;
+	margin-left: 12px;
+	margin-bottom: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	box-shadow: 0px 2px 2px #868484;
+	border-radius: 5px;
+}
+.continer .item .img-sale a .img-item {
+	height: 250px;
+	width: 100%;
+}
+.continer .item .img-sale a .img-item img {
+	border-radius: 5px;
+}
+.continer .item a {
+	text-decoration: none;
+}
+.continer .item .price {
+	padding-top: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+	font-weight: 600;
+}
+.continer .border-shadow {
+	color: #d3d3d3;
+	width: 100%;
+	border-bottom: 1px solid;
+	box-shadow: 1px 1px 1px #aaa;
+}

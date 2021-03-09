@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   <link rel="stylesheet" href="lab10.css">
+</head>
+<body>
+    <div id="menu"></div>
+    <div content>
+    <section>
+        <main>
+            <fieldset>
+            <form action="xuly.php" method="POST" enctype="multipart/form-data">
+                <div class="from-group">
+            <label tabindex=”1”>Họ và tên</label><br>
+             <input class="form-control" /> <br>
+
+             <div class="from-group">
+            <label>Giới tính</label><br>
+            <label><input type="radio" name="gender" value="male" checked="checked"/>Nam</label>
+            <label><input type="radio" name="gender" value="female"/>Nữ</label></div><br>
+
+            <div class="from-group">
+            <label>Ngày sinh</label><br>
+            <label><input type="date"></label></div><br>
+                   
+            <div class="from-group">
+            <label>Điểm</label><br>
+            <label><input type="number" min="0" max="10" step="0.25"></label></div><br>
+
+            <div class="from-group">
+            <label>Nghề nghiệp</label><br>
+            <label><input list="nghe">
+                <datalist id="nghe">
+                    <option value="Làm Nông">
+                    <option value="Công Nhân">
+                    <option value="Nhân viên văn phòng">
+                    <option value="Giáo Viên">
+                    <option value="Học sinh-Sinh viên">
+                    <option value="Nội trợ">
+                </datalist>
+            </label></div><br>
+            
+            </div><br>
+          
+            <div class="from-group">
+                <label>Sở Thích</label><br>
+                <label><input type="checkbox" name="sothich" value="eat">Ẩm Thực</label>
+                <label><input type="checkbox" name="sothich" value="sport"/>Thể Thao</label>
+                <label><input type="checkbox" name="sothich" value="travel"/>Du Lịch</label>
+                <label><input type="checkbox" name="sothich" value="music"/>Âm Nhạc</label></div><br>
+
+            <div class="from-group">
+            <label tabindex=”2”>Ghi chú</label><br>
+            <textarea cols="40" rows="5">Ghi chú tại đây</textarea></div><br>
+    
+            <hr>
+            <div class="form-group">
+                <button class="form-button" tabindex=”3”>Đăng Ký</button>
+                 <button class="form-button" tabindex=”4”>Nhập lại</button>
+            </div>
+            
+        </form>
+    </fieldset>
+        </main>
+    </section>
+</div>
+    <hr>
+<footer>
+  Nguyễn Thị Ngọc Ánh
+</footer>
+</body>
+</html>

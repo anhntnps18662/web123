@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet/less" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chi tiết</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=711977839489112&autoLogAppEvents=1" nonce="FR94ELyS"></script>
+    <script src="https://uhchat.net/code.php?f=828ecb"></script>
+
+
+    <div class="continer">
+        
+        <div class="Main">
+            <div class="surrownd">
+                <div class="showimg">
+                    <img src="Iframe/images/galaxyw215G.jpg" alt="" width="100%" height="60%">
+                </div>
+                <div class="select">
+                    <h1>galaxyw215G </h1>
+                    <span class="price">1,180,000₫</span>
+                    <div class="loaisp">
+                        <div class="title-select">
+                            <h4>loại sản phẩm</h4>
+                        </div>
+                        <div class="listlelect">
+                            <ul>
+                                <li>
+                                    <label>
+                                        <input checked="checked" type="radio" value="YSL Mon Paris Floral" name="option1">
+                                        <span>YSL Mon Paris Floral</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input checked="checked" type="radio" value="YSL Mon Paris Floral" name="option1">
+                                        <span>YSL Mon Paris Floral</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="sl">
+                        <div class="title-select">
+                            <h4>Số lượng</h4>
+                        </div>
+                        <div class="input-group">
+                            <input type="button" value="-" class="button-minus" data-field="quantity">
+                            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                            <input type="button" value="+" class="button-plus" data-field="quantity">
+                        </div> 
+                    </div>
+                    <div class="button-select">
+                        <input type="button" class="btn-add" value="Thêm vào giỏ">
+                        <input type="button" class="btn-buy-now" value="Mua ngay">
+                    </div>
+           
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div  class="shareAndlike">
+        <div class="fb-like"
+        data-href="http://127.0.0.1:5500/Lab13/index.html"
+         data-width="200" 
+         data-layout="standard" 
+         data-action="like" 
+         data-size="small" data-share="true">
+       </div>
+    </div>
+    <div class="shareAndlike">
+        <div class="fb-comments" data-href="https://www.facebook.com/ngocvu.nguyen.5817300/posts/774767166798853:0" data-width="100%" data-numposts="5"></div>
+    </div>
+</body>
+                           
+<script>
+    function incrementValue(e) {
+            e.preventDefault();
+            var fieldName = $(e.target).data('field');
+            var parent = $(e.target).closest('div');
+            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+            if (!isNaN(currentVal)) {
+                parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
+            } else {
+                parent.find('input[name=' + fieldName + ']').val(0);
+            }
+        }
+
+        function decrementValue(e) {
+            e.preventDefault();
+            var fieldName = $(e.target).data('field');
+            var parent = $(e.target).closest('div');
+            var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+            if (!isNaN(currentVal) && currentVal > 0) {
+                parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
+            } else {
+                parent.find('input[name=' + fieldName + ']').val(0);
+            }
+        }
+
+        $('.input-group').on('click', '.button-plus', function (e) {
+            incrementValue(e);
+        });
+
+        $('.input-group').on('click', '.button-minus', function (e) {
+            decrementValue(e);
+        });
+</script>
+</html>

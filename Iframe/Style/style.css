@@ -1,0 +1,46 @@
+.ListItem{
+    width: 25%;
+    float: left;
+}
+.Item{
+    border-radius:10px;
+    box-shadow:0 0 5px gray ;
+    margin:5px ;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.Item>.name {
+    font-variant: small-caps;
+    color: orangered;
+}
+.Item>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Item>.price{
+    position:absolute ;
+    left:10px;
+    bottom: 10px;
+    font-family:Impact ;
+    font-size: 30px;
+    color:orange ;
+}
+.Item>.icon{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    width:25px;
+}
+.Item>.new-icon{
+    position:absolute;
+    top: 0px;
+    left: 0px;;
+}
+.Item>.Sale-icon{
+    position:absolute;
+    top: 20px;
+    right: 0px;;
+}

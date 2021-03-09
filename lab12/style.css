@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.continer{
+
+    margin: 50px auto;
+    width: 80%;
+    height: 560px;
+}
+.continer .main{
+    float: left;
+    width: 78%;
+    height:560px;
+    border-width: 1px;
+    border-style:solid ;
+}
+.left{
+    text-align: center;
+    width: 20%;
+    height: 560px;
+    float: right;
+    border-width: 1px;
+    border-style:solid ;
+}
+.left .left1{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+}

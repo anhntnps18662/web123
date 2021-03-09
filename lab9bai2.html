@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab9bai1.css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <section>
+        <main>
+            <h2>Đăng Ký </h2>
+            <fieldset> 
+    
+            <form action="index.html" method="POST" enctype="multipart/form-data">
+                <div class="from-group">
+            <label tabindex=”1”>Họ và tên</label><br>
+            <input type="text" name="id" placeholder="Họ Tên" class="form-group"></div><br>
+
+            <div class="from-group">
+            <label>Giới tính</label><br>
+            <label><input type="radio" name="gender" value="male" checked="checked"/>Nam</label>
+            <label><input type="radio" name="gender" value="female"/>Nữ</label></div><br>
+
+            <label>Hình ảnh</label><br>
+            <input type="file" name="photo"/><br>
+
+            <label>Quốc Tịch</label><br>
+            <select >
+                <option value="">Việt Nam</option>
+                <option value="">Thailand</option>
+                <option value="">China</option>
+                <option value="">United States</option>
+                <option value="">Korea</option>
+                <option value="">Japan</option>
+                <option value="">Canada</option>
+                <option value="">Lào</option>
+            </select><br>
+
+            <div class="from-group">
+            <label>Sở Thích</label><br>
+            <label><input type="checkbox" name="sothich" value="eat">Ẩm Thực</label>
+            <label><input type="checkbox" name="sothich" value="sport"/>Thể Thao</label>
+            <label><input type="checkbox" name="sothich" value="travel"/>Du Lịch</label>
+            <label><input type="checkbox" name="sothich" value="music"/>Âm Nhạc</label></div><br>
+
+            <div class="from-group">
+            <label>Ghi chú</label><br>
+            <textarea cols="40" rows="5">...</textarea></div><br>
+    
+            <hr>
+            <button type="submit">Đăng Ký</button>
+            <button type="submit">Đăng Nhập</button>
+        </form>
+    </fieldset>
+        </main>
+    </section>
+    <div id="menu"></div>
+    <hr>
+    <footer>
+       Nguyễn Thị Ngọc Ánh
+    </footer>
+</body>
+</html>
